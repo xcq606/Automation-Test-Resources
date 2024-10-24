@@ -18,6 +18,7 @@ book_list = []
 
 def register():
     while True:
+
         username = input("请输入账号：")
         password = input("请输入密码：")
         confirm_password = input("请再次输入密码：")
